@@ -1,0 +1,22 @@
+.header__lang-btn {
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.17;
+  color: #fff;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.header__lang-btn:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-btn {
+    font-size: 18px;
+  }
+}
