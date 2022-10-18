@@ -8,7 +8,7 @@
   justify-content: center;
   gap: 32px;
   text-align: center;
-  background: url(../../images/cover-trains.jpg) center/cover no-repeat ;
+  background: url(../../images/cover-trains.jpg) center/cover no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
