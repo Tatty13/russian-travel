@@ -1,6 +1,6 @@
 # **Проект: Путешествие по России**
 
-![Project screenshot](https://raw.githubusercontent.com/Tatty13/imgs-for-README/blob/main/travel.jpg)
+![Project screenshot](https://raw.githubusercontent.com/Tatty13/imgs-for-README/main/travel.jpg)
 
 ## **О проекте**
 
