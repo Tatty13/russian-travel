@@ -1,3 +1,9 @@
 .photo-grid__img {
   width: 100%;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.photo-grid__img:hover {
+  transform: scale(1.03);
 }
