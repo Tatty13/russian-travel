@@ -1,0 +1,28 @@
+.place {
+  display: grid;
+  grid-template-columns: calc(50% - 32px) calc(50% - 6px);
+  justify-items: start;
+  align-items: start;
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: calc(50% - 24px) calc(50% - 8px);
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: calc(50% - 20px) calc(50% - 8px);
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

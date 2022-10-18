@@ -1,0 +1,28 @@
+.place__title {
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 869px) {
+  .place__title {
+    padding-right: 10px; /*для переноса "Куршской косы" на вторую строку*/
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .place__title {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    padding-right: 0;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
