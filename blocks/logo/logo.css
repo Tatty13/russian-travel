@@ -3,11 +3,11 @@
   height: 52px;
   background: url(../../images/header-logo.svg) no-repeat;
   cursor: pointer;
-  transition: 0.3;
+  transition: .3s;
 }
 
 .logo:hover {
-  opacity: .6;
+  opacity: .8;
 }
 
 @media screen and (max-width: 320px) {
