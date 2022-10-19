@@ -25,3 +25,9 @@
 .place__website:hover{
   color: rgba(255, 255, 255, .8);
 }
+
+@media screen and (max-width: 610px) {
+  .place__website {
+    margin: 0 16px;
+  }
+}
