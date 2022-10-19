@@ -1,0 +1,14 @@
+.place__link {
+  /* width: max-content; */
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  opacity: 1;
+  transition: .3s;
+}
+
+.place__link:hover{
+  opacity: .8;
+}

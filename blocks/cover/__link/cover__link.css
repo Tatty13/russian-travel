@@ -1,0 +1,23 @@
+.cover__link {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(42, 44, 47, .3);
+  transition: background .3s;
+}
+
+.cover__link:hover {
+  background: rgba(42, 44, 47, .8);
+}
+
+@media screen and (max-width: 546px) {
+  .cover__link {
+    gap: 16px;
+  }
+}

@@ -1,10 +1,10 @@
 .page {
-	width: 100%;
-	font-family: 'Inter', Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style:  normal;
-	font-size: 16px;
-	color: #fff;
-	-webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-	background: #2a2c2f;
+  background: #2a2c2f;
 }
