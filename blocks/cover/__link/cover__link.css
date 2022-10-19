@@ -14,3 +14,9 @@
 .cover__link:hover {
   background: rgba(42, 44, 47, .8);
 }
+
+@media screen and (max-width: 546px) {
+  .cover__link {
+    gap: 16px;
+  }
+}
