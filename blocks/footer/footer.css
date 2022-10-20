@@ -2,6 +2,7 @@
   margin: 0 auto;
   padding: 92px 48px 24px;
   max-width: 1280px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
