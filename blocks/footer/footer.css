@@ -18,13 +18,14 @@
 @media screen and (max-width: 710px) {
   .footer {
     padding: 64px 16px 24px;
+    flex-direction: column;
+    align-items: center;
     gap: 48px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .footer {
-    flex-direction: column;
     align-items: flex-start;
   }
 }
